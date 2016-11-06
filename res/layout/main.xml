@@ -1,0 +1,348 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <TextView
+        android:id="@+id/shagnlun_name"
+        android:layout_width="90dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/hagnlun_name"
+        android:textColor="@color/white"
+        android:background="@drawable/deongaree_bg"
+        android:textSize="15sp"
+        android:gravity="center"
+         />
+
+    <TextView
+        android:id="@+id/shanglunadd_name"
+        android:layout_width="33dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/shagnlun_name"
+        android:layout_toRightOf="@+id/shagnlun_name"
+        android:layout_marginLeft="20dp"
+        android:text="@string/shanglunadd_name"
+        android:textColor="@color/orange"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/shanglunadd_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/shagnlun_name"
+        android:layout_toRightOf="@+id/shanglunadd_name"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/xiangshang_selector"
+         />
+
+    <TextView
+        android:id="@+id/shanglunminus_name"
+        android:layout_width="33dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/shagnlun_name"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/shanglunadd_button"
+        android:text="@string/shanglunminus_name"
+        android:textColor="@color/orange"
+        android:textSize="15sp" />
+
+    <ImageButton
+        android:id="@+id/shanglunminus_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/shagnlun_name"
+        android:layout_toRightOf="@+id/shanglunminus_name"
+        android:background="@drawable/xiangxia_selector" />
+
+    <TextView
+        android:id="@+id/xialun_name"
+        android:layout_width="90dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@id/shagnlun_name"
+        android:layout_below="@id/shagnlun_name"
+        android:layout_marginTop="30dp"
+        android:text="@string/xialun_name"
+        android:textColor="@color/white"
+        android:background="@drawable/deongaree_bg"
+        android:textSize="15sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/xialunadd_name"
+        android:layout_width="33dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@id/xialun_name"
+        android:layout_toRightOf="@+id/xialun_name"
+        android:layout_alignLeft="@id/shanglunadd_name"
+        android:text="@string/xialunadd_name"
+        android:textColor="@color/orange"
+        android:textSize="15sp" />
+
+    <ImageButton
+        android:id="@+id/xialunadd_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/xialun_name"
+        android:layout_toRightOf="@+id/xialunadd_name"
+        android:layout_marginLeft="5dp"
+       android:background="@drawable/xiangshang_selector" />
+
+    <TextView
+        android:id="@+id/xialunminus_name"
+        android:layout_width="33dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@id/xialun_name"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@id/xialunadd_button"
+        android:text="@string/xialunminus_name"
+        android:textColor="@color/orange"
+        android:textSize="15sp" />
+
+    <ImageButton
+        android:id="@+id/xialunminus_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/xialun_name"
+        android:layout_toRightOf="@id/xialunminus_name"
+        android:background="@drawable/xiangxia_selector" />
+
+    <TextView
+        android:id="@+id/gongqiu_name"
+        android:layout_width="90dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@id/xialun_name"
+        android:layout_below="@id/xialun_name"
+        android:layout_marginTop="30dp"
+        android:text="@string/gongqiu_name"
+     	android:textColor="@color/white"
+        android:background="@drawable/deongaree_bg"
+        android:textSize="15sp"
+        android:gravity="center"
+         />
+
+    <TextView
+        android:id="@+id/gongqiuadd_name"
+        android:layout_width="33dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@id/gongqiu_name"
+        android:layout_toRightOf="@id/gongqiu_name"
+        android:layout_alignLeft="@id/xialunadd_name"
+        android:text="@string/gongqiuadd_name"
+        android:textColor="@color/orange"
+        android:textSize="15sp" />
+
+    <ImageButton
+        android:id="@+id/gongqiuadd_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/gongqiu_name"
+        android:layout_toRightOf="@id/gongqiuadd_name"
+        android:background="@drawable/xiangshang_selector" />
+
+    <TextView
+        android:id="@+id/gongqiuminus_name"
+        android:layout_width="33dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@id/gongqiu_name"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@id/gongqiuadd_button"
+        android:text="@string/gongqiuminus_name"
+        android:textColor="@color/orange"
+        android:textSize="15sp" />
+
+    <ImageButton
+        android:id="@+id/gongqiuminus_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/gongqiu_name"
+        android:layout_toRightOf="@id/gongqiuminus_name"
+        android:background="@drawable/xiangxia_selector" />
+
+    <TextView
+        android:id="@+id/xuanzhuan_name"
+        android:layout_width="90dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@id/gongqiu_name"
+        android:layout_below="@id/gongqiu_name"
+        android:layout_marginTop="30dp"
+        android:text="@string/xuanzhuan_name"
+       android:textColor="@color/white"
+        android:background="@drawable/deongaree_bg"
+        android:textSize="15sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/xiangzuo_name"
+        android:layout_width="33dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@id/xuanzhuan_name"
+        android:layout_toRightOf="@id/xialun_name"
+        android:layout_alignLeft="@id/gongqiuadd_name"
+        android:text="@string/xiangzuo_name"
+        android:textColor="@color/orange"
+        android:textSize="15sp" />
+
+    <ImageButton
+        android:id="@+id/xiangzuo_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/xuanzhuan_name"
+        android:layout_toRightOf="@id/xiangzuo_name"
+        android:background="@drawable/xiangzuo_selector" />
+
+    <TextView
+        android:id="@+id/xiangyou_name"
+        android:layout_width="33dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@id/xuanzhuan_name"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@id/xiangzuo_button"
+        android:text="@string/xiangyou_name"
+        android:textColor="@color/orange"
+        android:textSize="15sp" />
+
+    <ImageButton
+        android:id="@+id/xiangyou_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/xuanzhuan_name"
+        android:layout_toRightOf="@id/xiangyou_name"
+        android:background="@drawable/xiangyou_selector" />
+
+    <TextView
+        android:id="@+id/jitoutiaozheng_name"
+        android:layout_width="90dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@id/xuanzhuan_name"
+        android:layout_below="@id/xuanzhuan_name"
+        android:layout_marginTop="30dp"
+        android:text="@string/jitoutiaozheng_name"
+        android:textColor="@color/white"
+        android:background="@drawable/deongaree_bg"
+        android:textSize="15sp"
+        android:gravity="center"
+         />
+
+    <TextView
+        android:id="@+id/xiangshang_name"
+        android:layout_width="33dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@id/jitoutiaozheng_name"
+        android:layout_alignLeft="@id/xiangzuo_name"
+        android:layout_toRightOf="@id/jitoutiaozheng_name"
+        android:text="@string/xiangshang_name"
+        android:textColor="@color/orange"
+        android:textSize="15sp" />
+
+    <ImageButton
+        android:id="@+id/xiangshang_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/jitoutiaozheng_name"
+        android:layout_toRightOf="@id/xiangshang_name"
+        android:background="@drawable/xiangshang_selector" />
+
+    <TextView
+        android:id="@+id/xiangxia_name"
+        android:layout_width="33dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@id/jitoutiaozheng_name"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@id/xiangshang_button"
+        android:text="@string/xiangxia_name"
+        android:textColor="@color/orange"
+        android:textSize="15sp" />
+
+    <ImageButton
+        android:id="@+id/xiangxia_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/jitoutiaozheng_name"
+        android:layout_toRightOf="@id/xiangxia_name"
+        android:background="@drawable/xiangxia_selector" />
+     <Button
+       android:id="@+id/start_button"
+       android:layout_width="60dp"
+       android:layout_height="40dp"
+       android:text="@string/start_button"
+       android:layout_below="@id/jitoutiaozheng_name"
+  	   android:layout_marginTop="20dp"
+       android:layout_alignLeft="@id/jitoutiaozheng_name"
+       android:textSize="15sp"
+       android:textColor="@color/white"
+       android:background="@drawable/button_selector"
+       android:gravity="center"/>
+     <Button
+       android:id="@+id/stop_button"
+       android:layout_width="60dp"
+       android:layout_height="40dp"
+       android:text="@string/stop_button"
+       android:layout_alignBottom="@id/start_button"
+       android:layout_toRightOf="@id/start_button"
+       android:layout_marginLeft="15dp"
+       android:textSize="15sp"
+       android:textColor="@color/white"
+       android:background="@drawable/button_selector"
+       android:gravity="center"/>
+      <Button
+       android:id="@+id/OK_button"
+       android:layout_width="60dp"
+       android:layout_height="40dp"
+       android:text="OK"
+       android:layout_alignBottom="@id/start_button"
+       android:layout_toRightOf="@id/stop_button"
+       android:layout_marginLeft="15dp"
+       android:textSize="15sp"
+       android:textColor="@color/white"
+       android:background="@drawable/button_selector"
+       android:gravity="center"/>
+      <Button
+       android:id="@+id/return_button"
+       android:layout_width="60dp"
+       android:layout_height="40dp"
+       android:text="@string/return_button"
+       android:layout_alignBottom="@id/start_button"
+       android:layout_toRightOf="@id/OK_button"
+       android:layout_marginLeft="15dp"
+       android:textSize="15sp"
+       android:textColor="@color/white"
+       android:background="@drawable/button_selector"
+       android:gravity="center"/>
+    
+   
+    <EditText
+        android:id="@+id/edit_text_out"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:gravity="left"
+        android:hint="@string/edit_text_out"
+        android:textColor="#33b5e5"
+        android:textSize="15sp" />
+    
+     <Button 
+       android:id="@+id/button_send"
+       android:layout_width="60dp"
+       android:layout_height="40dp"
+       android:text="@string/send"
+       android:layout_toRightOf="@id/edit_text_out"
+       android:layout_alignBottom="@id/edit_text_out"
+       android:layout_marginBottom="5dp"
+       android:layout_marginLeft="20dp"
+       android:textSize="15sp"
+       android:textColor="@color/white"
+       android:background="@drawable/button_selector"
+       android:gravity="center"
+        />
+
+  
+</RelativeLayout>

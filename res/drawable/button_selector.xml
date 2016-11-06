@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!-- 按下键后变颜色 -->
+    <item android:drawable="@drawable/lightblue_bg" android:state_pressed="true"/>
+    <item android:drawable="@drawable/deongaree_bg"/>
+
+</selector>

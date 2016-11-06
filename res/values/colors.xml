@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color><!-- 黑色 -->
+	<color name="white">#FFFFFF</color>	<!--白色 -->
+	<color name="ivory">#FFFFF0</color>	<!--象牙色 -->
+	<color name="lightyellow">#FFFFE0</color>	<!--亮黄色-->
+	<color name="yellow">#FFFF00</color><!--黄色 -->
+	<color name="snow">#FFFAFA</color><!--雪白色 -->
+	<color name="floralwhite">#FFFAF0</color><!--花白色 -->
+	<color name="lemonchiffon">#FFFACD</color>
+	<color name="green">#00CC00</color>
+	<color name="red">#CC0000</color>
+	<color name="gray">#808080</color>
+	<color name="orange">#FF8000</color>
+	<color name="ashend">#e88b00</color>
+	<color name="deongaree">#1874CD</color> <!-- 深蓝 -->
+	<color name="lightblue">#33b5e5</color> <!-- 浅蓝 -->
+</resources>
+
